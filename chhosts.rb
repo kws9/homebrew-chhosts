@@ -6,7 +6,6 @@ class Chhosts < Formula
   homepage REPOSITORY_URL
   url "#{REPOSITORY_URL}/archive/#{HOMEBREW_CHHOSTS_VERSION}.tar.gz",
     :tag => HOMEBREW_CHHOSTS_VERSION.to_s
-  sha256 "c54ebe1f87b897a09571991540cdb94a4fed1306e6c783776cb87481d07f857f"
   head "#{REPOSITORY_URL}.git", :branch => "master"
   def install
     prefix.install "bin"
