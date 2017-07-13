@@ -1,5 +1,5 @@
 REPOSITORY_URL="https://github.com/kws9/chhosts".freeze
-HOMEBREW_CHHOSTS_VERSION="0.0.2".freeze
+HOMEBREW_CHHOSTS_VERSION="0.0.3".freeze
 
 class Chhosts < Formula
   desc "Easy to switch hosts."
